@@ -1,2 +1,2 @@
 # marquee
-responsive logo narquee
+responsive logo marquee
