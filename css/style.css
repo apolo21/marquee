@@ -1,0 +1,41 @@
+html, body { 
+height:100%; 
+}
+.logo {
+  width: 6.25%;
+  height: 6.25%;/* pour 100% pas pour 80%*/
+  display: inline-block;
+  margin: 0 3.125%;
+  float: left;
+  transition: all .24s ease-out;
+}
+.logo:hover {
+  transform: scale(1.5);
+}
+.area {
+  height: 200px;
+  width: 80%;
+  overflow: hidden;
+    box-sizing: border-box;
+  position: relative;
+  margin: auto;
+ 
+}
+.area--inner {
+  display: block;
+  width: 200%;
+  margin:  3% 0 ;
+  position: absolute;
+  animation: marquee 25s linear infinite;
+}
+.area--inner:hover {
+  animation-play-state: paused;
+}
+.area span {
+  float: left;
+  width: 50%;
+}
+@keyframes marquee {
+  0% { left: -100%; }
+  100% { left: 0; }
+}
