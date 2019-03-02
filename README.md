@@ -1,2 +1,2 @@
 # marquee
-responsive logo marquee
+logo marquee
